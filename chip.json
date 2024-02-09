@@ -1,0 +1,29 @@
+{
+    "name": "pressure-gauge",
+    "version": 1,
+    "author": "",
+    "pins": [
+      "VCC",
+      "GND",
+      "S+",
+      "S-"
+    ],
+    "controls": [
+      {
+        "type": "button",
+        "name": "powerButton",
+        "label": "Power On/Off"
+      },
+      {
+        "type": "slider",
+        "name": "pressureInput",
+        "label": "Pressure (PSI)",
+        "min": 0,
+        "max": 45,
+        "step": 1,
+        "default": 0
+      }
+    ],
+    "outputs": ["S+"]
+  }
+  
